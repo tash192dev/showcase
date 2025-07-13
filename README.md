@@ -20,7 +20,7 @@
 </p>
 
 ![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d54e84d3-5a3e-44a5-bf62-9525bd242235/deploy-status)](https://app.netlify.com/projects/tashraf/deploys)
 ## 🚨 Forking this repo (please read!)
 
 Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
