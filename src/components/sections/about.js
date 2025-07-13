@@ -146,7 +146,8 @@ const About = () => {
 
             <p>
               My passion for solving problems with embedded systems gave me the opportunity to work
-              at a <a href="https://www.fphcare.com/nz/">multinational medtech company</a> and a{' '}
+              at a <a href="https://www.fphcare.com/nz/">multinational medtech company</a> as well
+              as a{' '}
               <a href="https://www.teletracnavman.co.nz/">global industrial technology company</a>,
               My main focus currently is my research project at university which aims to deploy
               Tiny-ML (a less resource intensive version of your run of the mill ML) on edge devices

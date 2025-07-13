@@ -303,7 +303,7 @@ const StyledProject = styled.li`
   }
 `;
 
-const Featured = () => {
+const CurrentProjects = () => {
   const data = useStaticQuery(graphql`
     {
       featured: allMarkdownRemark(
@@ -347,7 +347,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some things I've done
+        What I'm doing now
       </h2>
 
       <StyledProjectsGrid>
@@ -361,7 +361,7 @@ const Featured = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline"></p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
@@ -413,4 +413,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default CurrentProjects;

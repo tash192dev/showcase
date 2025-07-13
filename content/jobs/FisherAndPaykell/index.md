@@ -1,7 +1,7 @@
 ---
 date: '2018-05-14'
 title: 'Product Development Intern'
-company: 'Fisher & Paykel Healthcare'
+company: 'F&P Healthcare'
 location: 'Auckland, NZ'
 range: 'Nov 2023 - Feb 2024'
 url: 'https://www.fphcare.com/nz/'
