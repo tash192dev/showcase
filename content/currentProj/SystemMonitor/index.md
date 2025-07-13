@@ -1,25 +1,18 @@
 ---
 date: '3'
 title: 'External System Monitor'
-cover: './demo.png'
+cover: './SystemMonitorSketch.png'
 # github: 'https://github.com/bchiang7/spotify-profile'
 # external: 'https://spotify-profile.herokuapp.com/'
 tech:
-  - Intel Quartus Prime
-  - Nios-V
-  - Tiny ML
+  - ESP32
+  - I2C
+  - Wifi / Bluetooth
   - FPGA
 ---
 
-- Want to gain familiarity with ESP-32 so using dev kit with a scree.
-- want to show
+Planning to develop a system monitoring display using an ESP32 dev kit with an integrated screen, with the goal of gaining hands-on experience with the ESP32 platform and its peripheral interfaces. The display will present key system metrics including CPU usage, frequency, temperature, RAM usage, fan speeds, power consumption, and system uptime.
 
-  - CPU usage, freq, temps
-  - RAM usag
-  - Fan speeds
-  - Power usage
-  - Uptime
+Integration with a Linux host is expected to involve custom kernel module development to access low-level performance data. Offloading system monitoring to the external display helps declutter the main screen and improves overall usability.
 
-- Integrating with linux will probably need to develop kernel modules
-- Allow more detailed system information and can free up actual screen space for useful stuff
-- want to 3d print a case and stuff
+A custom 3D-printed enclosure is planned to house the hardware, designed with a retro aesthetic to complement desktop setups while maintaining a compact and functional form factor.

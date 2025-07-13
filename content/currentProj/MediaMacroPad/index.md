@@ -1,20 +1,18 @@
 ---
-date: '2'
+date: '4'
 title: 'Media Control Pad'
-cover: './mediaPad.jpg'
+cover: './mediaPad.png'
 # github: 'https://github.com/bchiang7/halcyon-site'
 # external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - MicroPython
-  - Raspberry Pi
-  - Wireless Networking
+  - KMK Firmware
+  - Raspberry Pi Pico W
+  - Bluetooth
   - Altium Designer
 ---
 
-- Planned project to control media so that function row can be free
-- Media controls such as pause play next prev track.
-- Volume control with rotary encoder and click it to mute.
-- Brightness controller
-- Scroll video or audio track if possible
-- Want to brush up end to end pipeline skills.
-- Aiming to be cross platform across linux and windows etc
+Media controls often occupy valuable space on the function row. This planned project explores moving them to a dedicated Bluetooth media controller, built around the Raspberry Pi Pico W.
+
+The controller will feature playback buttons (play/pause, next/previous), a rotary encoder for volume with push-to-mute, screen brightness control, and three additional keys for customizable shortcuts. Encoder-based track scrubbing is also being explored.
+
+The firmware will be built using KMK with Bluetooth HID support, aiming for seamless compatibility across Linux and Windows. This project serves as a way to revisit the full development pipeline, from PCB design and hardware prototyping to firmware development and cross-platform integration.

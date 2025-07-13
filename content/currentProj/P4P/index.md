@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Tiny ML on RISC-V'
-cover: './demo.png'
+cover: './FPGA.jpg'
 # github: 'https://github.com/bchiang7/spotify-profile'
 # external: 'https://spotify-profile.herokuapp.com/'
 tech:

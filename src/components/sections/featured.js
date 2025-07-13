@@ -42,7 +42,7 @@ const StyledProject = styled.li`
   &:nth-of-type(odd) {
     .project-content {
       grid-column: 7 / -1;
-      text-align: right;
+      text-align: left;
 
       @media (max-width: 1080px) {
         grid-column: 5 / -1;

@@ -42,7 +42,7 @@ const StyledProject = styled.li`
   &:nth-of-type(odd) {
     .project-content {
       grid-column: 7 / -1;
-      text-align: right;
+      text-align: left;
 
       @media (max-width: 1080px) {
         grid-column: 5 / -1;
@@ -361,7 +361,7 @@ const CurrentProjects = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline"></p>
+                    <p className="project-overline">Ongoing Project</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
