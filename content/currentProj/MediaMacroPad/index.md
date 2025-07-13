@@ -8,10 +8,9 @@ tech:
   - KMK Firmware
   - Raspberry Pi Pico W
   - Bluetooth
-  - Altium Designer
 ---
 
-Media controls often occupy valuable space on the function row. This planned project explores moving them to a dedicated Bluetooth media controller, built around the Raspberry Pi Pico W.
+Media controls often occupy valuable space on a keyboard's function row. This planned project explores moving them to a dedicated Bluetooth media controller, built around the Raspberry Pi Pico W.
 
 The controller will feature playback buttons (play/pause, next/previous), a rotary encoder for volume with push-to-mute, screen brightness control, and three additional keys for customizable shortcuts. Encoder-based track scrubbing is also being explored.
 

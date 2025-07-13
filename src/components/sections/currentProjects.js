@@ -345,7 +345,7 @@ const CurrentProjects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="currentProjects">
       <h2 className="numbered-heading" ref={revealTitle}>
         What I'm doing now
       </h2>

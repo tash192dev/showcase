@@ -65,14 +65,14 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Talha Ashraf.</h2>;
-  const three = <h3 className="big-heading">I make embedded systems.</h3>;
+  const three = <h3 className="big-heading">I solve problems.</h3>;
   const four = (
     <>
       <p>
         {' '}
         I’m a final year Computer Systems Engineering student with a focus on designing and building
-        reliable, efficient, and user-centered technology at the intersection of hardware and
-        software.
+        reliable, efficient, and meaningful technology at the intersection of hardware and software
+        to solve real problems.
       </p>
     </>
   );

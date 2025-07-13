@@ -135,26 +135,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there ! My name is Talha Ashraf and I enjoy solving problems. From rovers that
-              explore unknown worlds to processor micro architecture I think it's all super cool.
-              I've had a particular passion from the beginning with consumer electronics such as
-              mobile phones and laptops. This lead to me doing a computer systems engineering degree
-              at UoA. My dream is to one day harness the skills I have learnt and build a modular
-              and repairable phone like Framework does for laptops to have a good impact on the
-              world.
+              Hi, I'm Talha Ashraf, a final-year Computer Systems Engineering student at the
+              University of Auckland who's passionate about solving real-world problems through
+              technology.
             </p>
-
             <p>
-              My passion for solving problems with embedded systems gave me the opportunity to work
-              at a <a href="https://www.fphcare.com/nz/">multinational medtech company</a> as well
-              as a{' '}
-              <a href="https://www.teletracnavman.co.nz/">global industrial technology company</a>,
-              My main focus currently is my research project at university which aims to deploy
-              Tiny-ML (a less resource intensive version of your run of the mill ML) on edge devices
-              which have quite low computation, memory and energy budgets.
+              My fascination with technology ranges from early computers to the smartphones we carry
+              today and has led me to pursue a degree in Computer Systems Engineering. I've always
+              been drawn to products that are both elegant and purposeful. I aspire to make a
+              positive impact on the world by one day designing a modular, repairable phone, similar
+              to what <a href="https://frame.work/">Framework</a> is doing for laptops.
+            </p>
+            <p>
+              This passion for impactful, embedded systems has led me to roles at both at a{' '}
+              <a href="https://www.fphcare.com/nz/">multinational medtech company</a> as well as a{' '}
+              <a href="https://www.teletracnavman.co.nz/">global telematics company</a>, where I’ve
+              had the chance to work on technology that scales and matters.
+            </p>
+            <p>
+              Right now, I am focused on completing and degree and my final-year research project
+              exploring TinyML on edge devices with limited compute, memory, and energy resources.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
