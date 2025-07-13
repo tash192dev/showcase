@@ -42,7 +42,7 @@ const StyledProject = styled.li`
   &:nth-of-type(odd) {
     .project-content {
       grid-column: 7 / -1;
-      text-align: left;
+      text-align: justify;
 
       @media (max-width: 1080px) {
         grid-column: 5 / -1;
@@ -54,6 +54,12 @@ const StyledProject = styled.li`
       }
       @media (max-width: 480px) {
         padding: 25px 25px 20px;
+      }
+      .project-title {
+        text-align: right;
+      }
+      .project-overline {
+        text-align: right;
       }
     }
     .project-tech-list {

@@ -154,7 +154,7 @@ const About = () => {
             </p>
             <p>
               Right now, I am focused on completing and degree and my final-year research project
-              exploring TinyML on edge devices with limited compute, memory, and energy resources.
+              explores TinyML on edge devices with limited compute, memory, and energy resources.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

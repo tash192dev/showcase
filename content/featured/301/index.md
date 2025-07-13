@@ -2,8 +2,8 @@
 date: '2'
 title: 'Line Following Robot'
 cover: './demo.jpeg'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+cta: ("dummy content")
+
 tech:
   - C/C++
   - Circuit Design

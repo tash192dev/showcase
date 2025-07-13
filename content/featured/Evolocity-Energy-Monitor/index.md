@@ -2,8 +2,7 @@
 date: '1'
 title: 'EVolocity Energy Monitor'
 cover: './Evolocity.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+
 tech:
   - MicroPython
   - Raspberry Pi
