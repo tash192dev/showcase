@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Media Control Pad'
-cover: './Evolocity.png'
+cover: './mediaPad.jpg'
 # github: 'https://github.com/bchiang7/halcyon-site'
 # external: 'https://halcyon-theme.netlify.com/'
 tech:
