@@ -307,7 +307,7 @@ const CurrentProjects = () => {
   const data = useStaticQuery(graphql`
     {
       featured: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/content/featured/" } }
+        filter: { fileAbsolutePath: { regex: "/content/currentProj/" } }
         sort: { fields: [frontmatter___date], order: ASC }
       ) {
         edges {
