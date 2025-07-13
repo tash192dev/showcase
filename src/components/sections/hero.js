@@ -72,7 +72,7 @@ const Hero = () => {
         {' '}
         I’m a final year Computer Systems Engineering student with a focus on designing and building
         reliable, efficient, and meaningful technology at the intersection of hardware and software
-        to solve real problems.
+        to solve real world problems.
       </p>
     </>
   );
