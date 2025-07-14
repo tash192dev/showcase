@@ -1,25 +1,40 @@
-import React from 'react';
+import * as React from 'react';
 
-const IconLogo = () => (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
-    <title>Logo</title>
-    <g transform="translate(-8.000000, -2.000000)">
-      <g transform="translate(11.000000, 5.000000)">
-        <polygon
-          id="Shape"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          points="39 0 0 22 0 67 39 90 78 68 78 23"
-        />
-        <path
-          d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
-          fill="currentColor"
-        />
-      </g>
+const SvgIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    id="svg5"
+    width="84"
+    height="96.348"
+    version="1.1"
+    viewBox="0 0 84 96.348">
+    <g
+      id="layer1"
+      fillOpacity="1"
+      stroke="#64ffda"
+      strokeDasharray="none"
+      strokeOpacity="1"
+      transform="translate(-115.75 -101.93)scale(1.01416)">
+      <path
+        id="path286"
+        fill="#0a192f"
+        strokeWidth="11.339"
+        d="M430.927 376.16c-.053.09-155.77 89.268-155.875 89.268s-155.194-90.266-155.246-90.357.576-179.535.63-179.626c.052-.09 155.769-89.269 155.874-89.268.105 0 155.194 90.266 155.246 90.357s-.576 179.535-.63 179.626z"
+        transform="matrix(.25636 0 0 .25636 84.875 74.742)"></path>
+      <text
+        xmlSpace="preserve"
+        id="text3338"
+        x="140.893"
+        y="166.861"
+        fill="#64ffda"
+        strokeWidth="2.673"
+        fontSize="52.807">
+        <tspan id="tspan3336" x="140.893" y="166.861" strokeWidth="2.673">
+          T
+        </tspan>
+      </text>
     </g>
   </svg>
 );
 
-export default IconLogo;
+export default SvgIcon;
