@@ -61,8 +61,9 @@ const Contact = () => {
 
       <p>
         I'm currently seeking a graduate role to pursue after completing my Bachelor of Engineering
-        (Honours) this year. I'm eager to join a dynamic team, expand my practical experience, and
-        contribute meaningfully to projects that drive real-world impact.
+        (Honours) this year. I'm eager to join a dynamic team, where I can apply my technical
+        skills, continue learning, and contribute meaningfully to projects that drive real-world
+        impact.
       </p>
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello

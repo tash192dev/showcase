@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C/C++', 'Python/MicroPython', 'TinyML', 'Altium', 'Intel Quartus', 'FPGA'];
+  const skills = ['C/C++', 'Python/MicroPython', 'TinyML', 'Altium', 'Intel Quartus Prime', 'FPGA'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,19 +135,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Talha Ashraf, a final-year Computer Systems Engineering student at the
-              University of Auckland who's passionate about solving real-world problems through
-              technology.
+              Hi, I'm Talha Ashraf, a final-year Computer Engineering student at the University of
+              Auckland with a fascination with technology and a drive to solve problems.
             </p>
             <p>
-              My fascination with technology ranges from early computers to the smartphones we carry
-              today and has led me to pursue a degree in Computer Systems Engineering. I've always
-              been drawn to products that are both elegant and purposeful. I aspire to make a
-              positive impact on the world by one day designing a modular, repairable phone, similar
-              to what <a href="https://frame.work/">Framework</a> is doing for laptops.
+              I am broadly interested in all technology from early mechanical computers to the
+              smartphones we carry in our pockets today. My deeper interests however led me to
+              pursue a degree in Computer Systems Engineering which focuses on embedded systems.
+              These are computer systems that are found in every aspect of life, from the smart
+              watches on our wrists, to the distributed control systems for the electrical grids
+              that power our lives. I aspire to use my skills to make a positive impact on the world
+              by one day designing a modular, repairable phone, similar to what{' '}
+              <a href="https://frame.work/">Framework</a> is doing for laptops.
             </p>
             <p>
-              This passion for impactful, embedded systems has led me to roles at both at a{' '}
+              My passion for impactful, embedded systems has led me to roles at both at a{' '}
               <a href="https://www.fphcare.com/nz/">multinational medtech company</a> as well as a{' '}
               <a href="https://www.teletracnavman.co.nz/">global telematics company</a>, where I’ve
               had the chance to work on technology that scales and matters.
