@@ -57,13 +57,11 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">If you like what you see...</h2>
 
-      <h2 className="title">Lets work together !</h2>
+      <h2 className="title">Reach out!</h2>
 
       <p>
-        I'm currently seeking a graduate role to pursue after completing my Bachelor of Engineering
-        (Honours) this year. I'm eager to join a dynamic team, where I can apply my technical
-        skills, continue learning, and contribute meaningfully to projects that drive real-world
-        impact.
+        If you're interested in solving difficult problems at the interesction of hardware and
+        firmware, that solve real world probelms, i would love to hear from you.
       </p>
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello

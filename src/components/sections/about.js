@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C/C++', 'Python/MicroPython', 'TinyML', 'Altium', 'Intel Quartus Prime', 'FPGA'];
+  const skills = [
+    'C/C++',
+    'Nordic nRF',
+    'BLE',
+    'Bluetooth Mesh',
+    'Linear Motors',
+    'Satelite Communications ',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,8 +142,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Talha Ashraf, a final-year Computer Engineering student at the University of
-              Auckland with a fascination with technology and a drive to solve problems.
+              Hi, I'm Talha Ashraf, an embedded systems engineer with a fascination with technology
+              and a drive to solve problems.
             </p>
             <p>
               I am broadly interested in all technology from early mechanical computers to the
@@ -155,8 +162,10 @@ const About = () => {
               had the chance to work on technology that scales and matters.
             </p>
             <p>
-              Right now, I am focused on completing and degree and my final-year research project
-              explores TinyML on edge devices with limited compute, memory, and energy resources.
+              Right now, I'm working on ultra low power agritech devices at an{' '}
+              <a href="https://www.flexware.co.nz/">embedded design house</a>. I bring ideas to life
+              by designing and building the hardware and firmware with my own hands, which is an
+              incredibly rewarding process.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
