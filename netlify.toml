@@ -1,0 +1,6 @@
+[build]
+  command = "yarn run build"
+  publish = "public"
+
+[build.environment]
+  node_version = "18"
