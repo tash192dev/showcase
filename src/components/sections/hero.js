@@ -70,8 +70,8 @@ const Hero = () => {
     <>
       <p>
         {' '}
-        I’m a final year Computer Systems Engineering student with a focus on designing and building
-        reliable, efficient, and meaningful technology at the intersection of hardware and software
+        I’m an embedded systems engineer with a focus on designing and building reliable, efficient,
+        and meaningful technology in the agritech space at the intersection of hardware and software
         to solve real world problems.
       </p>
     </>
